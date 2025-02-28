@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logo from "./logo.png";
 import "./index.css";
 
 function App() {
@@ -103,7 +104,9 @@ function App() {
       )}
 
       <div className="container">
-        <h1>To-Do List ✅</h1>
+        
+        <img src={logo} alt="To-Do List Logo" style={{ maxWidth: "100px", display: "block", margin: "10px auto" }} />
+        <h1>To-Do List</h1>
 
         <div>
           <input
